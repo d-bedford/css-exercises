@@ -1,0 +1,14 @@
+.classes {
+    background-color: pink;
+}
+.num_3, #id-two {
+    font-size: 25px;
+}
+#id-one {
+    color: blue;
+    font-size: 40px;
+}
+#id-two {
+    background-color: lightgreen;
+    font-weight: 900;
+}
