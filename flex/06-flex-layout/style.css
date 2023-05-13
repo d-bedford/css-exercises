@@ -2,6 +2,9 @@
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
@@ -25,3 +28,42 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: rgb(66, 64, 64);
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(236, 234, 234);
+  padding: 10px;
+}
+.left-links {
+
+  display: flex;
+  gap: 10px;
+}
+.right-links {
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 10px;
+}
+
