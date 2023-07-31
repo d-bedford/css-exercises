@@ -10,6 +10,7 @@
 
 .menu-title {
   background-color: rgb(163, 162, 162);
+
 }
 
 .dropdown-menu {
@@ -26,7 +27,17 @@ ul.dropdown-menu li:hover {
 }
 
 .visible {
+  animation:  300ms dropdown ease-in-out forwards;
   display: block;
+  transform-origin: top;
+}
+@keyframes dropdown {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
 }
 
 
